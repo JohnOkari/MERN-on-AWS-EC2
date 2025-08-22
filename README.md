@@ -30,32 +30,7 @@ Before starting, ensure you have:
 ### Step 1: Launch an EC2 Instance
 - Log into the AWS Management Console to set up the EC2 instance.
 ---
-- Enter the name of your web server
----
-![EC2 Name](./images/instance_name.png)
----
-- Choose **Ubuntu Server 22.04 LTS** (or latest LTS).
----
-![Ubuntu](./images/ubuntu_sever.png)
-- Select an **instance type** (e.g., t2.micro for free tier or t3.small+ for heavier workloads).
----
-![Instance-Type](./images/instance_type.png)
----
-- Launch and download the `.pem` key pair or use an already created key pair.
----
-![key pair](./images/key_pair.png)
----
-- Configure **Security Group** to allow HTTP, HTTPS, SSH.
----
-![Instance-Type](./images/security_groups.png)
----
-- Configure storage as desired (defaults are fine for testing).
----
-![launch-instance](./images/configure_storage.png)
----
-- Click Launch Instance.
----
-- Confirm instance is running and status checks pass.
+- Launch Instance and Confirm instance is running and status checks pass.
 ---
 ![ec2-success](./images/status_checks.png)
 ---
