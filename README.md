@@ -50,11 +50,6 @@ From your terminal, cd to the directory containing your key pair and run:
 chmod 400 mern-stack-kp.pem
 ssh -i mern-stack-kp.pem ubuntu@<EC2_PUBLIC_IP>
 ```
-- You're in when you see something like this
----
-![ssh-success](./images/ubuntu_terminal.png)
----
-
 ### Step 3: Update the System and Install Base Tools
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -413,5 +408,6 @@ If you no longer need the setup:
 - If using Atlas, pause/terminate the cluster to avoid charges.
 
 ---
+
 
 **End of Guide**
