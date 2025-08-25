@@ -280,7 +280,7 @@ module.exports = router;
    - Create a database named `todo_db`
    - Initialize a collection named `todos`
 
-![Database Creation](/images/image13.png.jpg)
+![Database Creation](/images/image13.png)
 
 3. **Environment Configuration**: Create a `.env` file for secure credential management:
 
