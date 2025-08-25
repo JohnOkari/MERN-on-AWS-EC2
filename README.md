@@ -650,7 +650,6 @@ export default App;
 1. **App.css Styling**: Apply modern, responsive design patterns:
 
 ```bash
-cd ..
 nano App.css
 ```
 ```css
@@ -743,10 +742,11 @@ li {
 }
 ```
 
-![Styling Implementation](/images/mern37.jpg)
+2. **Global Styles**: Update index.css for consistent theming: 
 
-2. **Global Styles**: Update index.css for consistent theming:
-
+```bash
+nano index.css
+```
 ```css
 body {
   margin: 0;
