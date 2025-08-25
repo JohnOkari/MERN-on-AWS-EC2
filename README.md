@@ -210,6 +210,11 @@ mkdir models && cd models && touch todo.js
 ```
 Now that we have created the models directory and todo.js file, let's define the schema:
 
+```bash
+sudo nano todo.js
+```
+Copy paste
+
 ```javascript
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
@@ -228,7 +233,12 @@ module.exports = Todo;
 
 ### Route Integration
 
-Update your API routes to utilize the data model:
+Update your API routes to utilize the data model-In Routes directory, open api.js with:
+
+```bash
+sudo nano api.js
+```
+Copy paste
 
 ```javascript
 const express = require('express');
