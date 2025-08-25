@@ -295,7 +295,7 @@ module.exports = router;
 3. **Environment Configuration**: Create a `.env` file for secure credential management:
 
 ```bash
-touch .env && vi .env
+touch .env && nano .env
 ```
 
 Add your MongoDB connection string:
