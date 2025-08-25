@@ -26,9 +26,9 @@ Our application leverages these core technologies:
 
 3. **SSH Key Authentication**: Implement key-based authentication for enhanced security by attaching your SSH key during instance creation.
 
-![EC2 Instance Setup](/images/mern.jpg)
+![EC2 Instance Setup](/images/image1.jpg)
 
-![Security Group Configuration](/images/mern2.jpg)
+![Security Group Configuration](/images/image2.jpg)
 
 4. **Remote Connection**: Establish secure connection using your terminal application:
 
@@ -46,7 +46,7 @@ ssh -i "ssh-key.pem" ubuntu@<your-instance-ip>
 sudo apt update && sudo apt upgrade
 ```
 
-![System Update](/images/mern3.jpg)
+![System Update](/images/image3.jpg)
 
 2. **Node.js Installation**: Add the official Node.js repository and install the runtime:
 
@@ -54,7 +54,7 @@ sudo apt update && sudo apt upgrade
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
-![Node.js Repository Setup](/images/mern4.jpg)
+![Node.js Repository Setup](/images/image4.jpg)
 
 3. **Runtime Installation**: Install Node.js and npm package manager:
 
@@ -62,7 +62,7 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install nodejs -y
 ```
 
-![Node.js Installation](/images/mern5.jpg)
+![Node.js Installation](/images/image5.jpg)
 
 4. **Verification**: Confirm successful installation by checking version numbers:
 
@@ -80,9 +80,7 @@ mkdir Todo && ls && cd Todo
 npm init
 ```
 
-![Project Directory Creation](/images/mern6.jpg)
-
-![Package.json Initialization](/images/mern7.jpg)
+![Package.json Initialization](/images/image6.jpg)
 
 The `package.json` file serves as your project's configuration manifest, documenting dependencies, scripts, and metadata.
 
@@ -102,17 +100,20 @@ npm install express
 touch index.js && ls
 ```
 
-![Entry Point Creation](/images/mern8.jpg)
-
 3. **Environment Management**: Install dotenv for secure configuration handling:
 
 ```bash
 npm install dotenv
 ```
 
-![Environment Variables Setup](/images/mern9.jpg)
+![Entry Point Creation](/images/image7.jpg)
 
 4. **Basic Server Implementation**: Configure your Express application:
+
+```bash
+sudo nano index.js
+```
+**Add the configuration below**:
 
 ```javascript
 const express = require('express');
@@ -136,8 +137,6 @@ app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 ```
-
-![Server Code Implementation](/images/mern10.jpg)
 
 5. **Server Launch**: Start your development server:
 
