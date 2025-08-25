@@ -140,7 +140,7 @@ app.listen(port, () => {
 
 5. **Server Launch**: Start your development server:
 
-  **Remember to edit Inbound rules by adding Custom TCP port 5000**
+  ***Remember to edit Inbound rules by adding Custom TCP port 5000***
 
 ![Inbound Rules:Port 5000](/images/image8.png)
 
