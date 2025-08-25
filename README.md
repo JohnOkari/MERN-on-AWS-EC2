@@ -344,15 +344,13 @@ app.listen(port, () => {
 });
 ```
 
-![Server Integration](/images/mern22.jpg)
-
 5. **Application Launch**: Start your backend server:
 
 ```bash
 node index.js
 ```
 
-![Backend Launch](/images/mern23.jpg)
+![Backend Launch](/images/image.png)
 
 ## API Testing and Validation
 
