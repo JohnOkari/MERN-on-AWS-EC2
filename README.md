@@ -463,6 +463,10 @@ touch Input.js ListTodo.js Todo.js
 
 Create a component for task input functionality:
 
+```bash
+nano Input.js
+```
+
 ```javascript
 import React, { Component } from 'react';
 import axios from 'axios';
@@ -516,11 +520,17 @@ cd ../..
 npm install axios
 ```
 
-![Axios Installation](/images/mern34.jpg)
-
 ### List Component Implementation
 
+```bash
+cd src/components
+```
+
 Create a component for displaying todo items:
+
+```bash
+nano ListTodo.js
+```
 
 ```javascript
 import React from 'react';
@@ -551,6 +561,10 @@ export default ListTodo;
 ### Main Todo Component
 
 Implement the primary component that orchestrates the application:
+
+```bash
+nano Todo.js.js
+```
 
 ```javascript
 import React, { Component } from 'react';
@@ -610,6 +624,10 @@ export default Todo;
 ### Application Integration
 
 1. **App.js Update**: Modify the main application file to include your Todo component:
+
+```bash
+nano Todo.js.js
+```
 
 ```javascript
 import React from 'react';
