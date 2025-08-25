@@ -393,8 +393,13 @@ npx create-react-app client
 ```bash
 npm install concurrently --save-dev
 ```
+2. **Nodemon Execution Setup**: Used to run and monitor the server:
 
-2. **Script Configuration**: Update your package.json scripts for streamlined development:
+```bash
+npm install --save-dev nodemon
+```
+
+3. **Script Configuration**: Update your package.json scripts for streamlined development:
 
 ```json
 "scripts": {
@@ -417,7 +422,7 @@ cd client
 2. **Package.json Modification**: Add proxy configuration for seamless API communication:
 
 ```bash
-vi package.json
+nano package.json
 ```
 
 Add the proxy line:
@@ -426,15 +431,15 @@ Add the proxy line:
 "proxy": "http://localhost:5000"
 ```
 
-![Proxy Setup](/images/mern32.jpg)
-
 3. **Development Server Launch**: Start both backend and frontend simultaneously:
 
 ```bash
 npm run dev
 ```
 
-![Development Server](/images/mern33.jpg)
+![Development Server](/images/image21.png)
+
+---
 
 ## React Component Architecture
 
