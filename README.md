@@ -358,23 +358,23 @@ node index.js
 
 1. **Request Configuration**: Configure Postman to test your API endpoints at `http://your-instance-ip:5000/api/todos`
 
-![Postman Setup](/images/mern24.jpg)
+![Postman Setup](/images/image15.png)
 
 2. **GET Request Testing**: Retrieve all todo items from the database
 
-![GET Request](/images/mern25.jpg)
+![GET Request](/images/image16.png)
 
 3. **Database Verification**: Confirm data persistence in MongoDB Atlas
 
-![Database Verification](/images/mern26.jpg)
+![Database Verification](/images/image17.png)
 
 4. **DELETE Request Testing**: Remove completed tasks from the system
 
-![DELETE Request](/images/mern27.jpg)
+![DELETE Request](/images/image18.png)
 
 5. **Post-Deletion Verification**: Validate successful data removal
 
-![Post-Deletion Check](/images/mern28.jpg)
+![Post-Deletion Check](/images/image19.png)
 
 ## Frontend Development
 
