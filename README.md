@@ -781,11 +781,11 @@ cd ../..
 npm run dev
 ```
 
-![Full Application Launch](/images/image21.jpg)
+![Full Application Launch](/images/image21.png)
 
 2. **Browser Access**: Navigate to your EC2 instance's public IP address on port 3000 to access your fully functional todo application.
 
-![Application Interface](/images/image22.jpg)
+![Application Interface](/images/image22.png)
 
 ## Project Summary
 
