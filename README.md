@@ -154,24 +154,9 @@ Access your application at `http://your-instance-ip:5000` to verify the server i
 
 ![Server Verification](/images/image10.png)
 
-## Set 1: Database Setup and Model Creation
-
-### Step 1: Navigate to Todo Directory and Install Mongoose
-
-```bash
-cd ..
-npm install mongoose
-```
-
-### Step 2: Create Models Directory and Todo Model
-
-```bash
-mkdir models
-cd models
-touch todo.js
-```
-
 ---
+
+
 
 ## API Architecture Implementation
 
@@ -185,7 +170,7 @@ Implement RESTful API endpoints to handle CRUD operations for your todo applicat
 mkdir routes && cd routes && touch api.js
 ```
 
-![Route Structure](/images/mern13.jpg)
+![Route Structure](/images/image11.png)
 
 2. **API Endpoint Definition**:
 
@@ -207,11 +192,22 @@ router.delete('/todos/:id', (req, res, next) => {
 
 module.exports = router;
 ```
+---
 
-![API Route Setup](/images/mern14.jpg)
+## Schema Definition: Database Setup and Model Creation
 
-### Schema Definition
+### Step 1: Navigate to Todo Directory and Install Mongoose
 
+```bash
+cd ..
+npm install mongoose
+```
+
+### Step 2: Create Models Directory and Todo Model
+
+```bash
+mkdir models && cd models && touch todo.js
+```
 Now that we have created the models directory and todo.js file, let's define the schema:
 
 ```javascript
@@ -229,8 +225,6 @@ const Todo = mongoose.model('todo', TodoSchema);
 
 module.exports = Todo;
 ```
-
-![Schema Implementation](/images/mern17.jpg)
 
 ### Route Integration
 
@@ -267,8 +261,6 @@ router.delete('/todos/:id', (req, res, next) => {
 
 module.exports = router;
 ```
-
-![Route Integration](/images/mern18.jpg)
 
 ## Database Configuration
 
