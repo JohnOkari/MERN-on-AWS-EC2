@@ -272,15 +272,15 @@ module.exports = router;
    - Select the Paris (eu-west-3) region for optimal performance
    - Configure network access to allow connections from any IP address
 
-![MongoDB Atlas Setup](/images/mern19.jpg)
+<!-- ![MongoDB Atlas Setup](/images/image12b.png) -->
 
-![Cluster Configuration](/images/mern20.jpg)
+![Cluster Configuration](/images/image12.png)
 
 2. **Database and Collection Setup**:
    - Create a database named `todo_db`
    - Initialize a collection named `todos`
 
-![Database Creation](/images/mern21.jpg)
+![Database Creation](/images/image13.png.jpg)
 
 3. **Environment Configuration**: Create a `.env` file for secure credential management:
 
