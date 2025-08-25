@@ -154,10 +154,6 @@ Access your application at `http://your-instance-ip:5000` to verify the server i
 
 ![Server Verification](/images/image10.png)
 
-## API Architecture Implementation
-
-### Route Structure Design
-
 ## Set 1: Database Setup and Model Creation
 
 ### Step 1: Navigate to Todo Directory and Install Mongoose
@@ -214,25 +210,9 @@ module.exports = router;
 
 ![API Route Setup](/images/mern14.jpg)
 
-### Data Model Implementation
+### Schema Definition
 
-1. **Mongoose Installation**: Add MongoDB ODM for schema management:
-
-```bash
-npm install mongoose
-```
-
-![Mongoose Installation](/images/mern15.jpg)
-
-2. **Model Structure**: Create the data schema and model:
-
-```bash
-mkdir models && cd models && touch todo.js
-```
-
-![Model Directory](/images/mern16.jpg)
-
-3. **Schema Definition**:
+Now that we have created the models directory and todo.js file, let's define the schema:
 
 ```javascript
 const mongoose = require('mongoose');
@@ -252,7 +232,9 @@ module.exports = Todo;
 
 ![Schema Implementation](/images/mern17.jpg)
 
-4. **Route Integration**: Update your API routes to utilize the data model:
+### Route Integration
+
+Update your API routes to utilize the data model:
 
 ```javascript
 const express = require('express');
