@@ -386,8 +386,6 @@ node index.js
 npx create-react-app client
 ```
 
-![React App Creation](/images/mern29.jpg)
-
 ### Development Environment Configuration
 
 1. **Concurrent Execution Setup**: Install tools for simultaneous backend and frontend development:
@@ -395,8 +393,6 @@ npx create-react-app client
 ```bash
 npm install concurrently --save-dev
 ```
-
-![Concurrent Setup](/images/mern30.jpg)
 
 2. **Script Configuration**: Update your package.json scripts for streamlined development:
 
@@ -408,7 +404,7 @@ npm install concurrently --save-dev
 }
 ```
 
-![Script Configuration](/images/mern31.jpg)
+![Script Configuration](/images/image20.png)
 
 ### Proxy Configuration
 
