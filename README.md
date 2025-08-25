@@ -563,7 +563,7 @@ export default ListTodo;
 Implement the primary component that orchestrates the application:
 
 ```bash
-nano Todo.js.js
+nano Todo.js
 ```
 
 ```javascript
@@ -619,15 +619,15 @@ class Todo extends Component {
 export default Todo;
 ```
 
-![Main Component](/images/mern35.jpg)
-
 ### Application Integration
 
 1. **App.js Update**: Modify the main application file to include your Todo component:
 
 ```bash
-nano Todo.js.js
+cd ..
+nano App.js
 ```
+Make sure that you are in the src folder and run
 
 ```javascript
 import React from 'react';
