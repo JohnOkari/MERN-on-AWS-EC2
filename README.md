@@ -158,6 +158,29 @@ Access your application at `http://your-instance-ip:5000` to verify the server i
 
 ### Route Structure Design
 
+## Set 1: Database Setup and Model Creation
+
+### Step 1: Navigate to Todo Directory and Install Mongoose
+
+```bash
+cd ..
+npm install mongoose
+```
+
+### Step 2: Create Models Directory and Todo Model
+
+```bash
+mkdir models
+cd models
+touch todo.js
+```
+
+---
+
+## API Architecture Implementation
+
+### Route Structure Design
+
 Implement RESTful API endpoints to handle CRUD operations for your todo application:
 
 1. **Route Directory Creation**:
