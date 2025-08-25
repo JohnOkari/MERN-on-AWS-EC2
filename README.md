@@ -140,15 +140,19 @@ app.listen(port, () => {
 
 5. **Server Launch**: Start your development server:
 
+  **Remember to edit Inbound rules by adding Custom TCP port 5000**
+
+![Inbound Rules:Port 5000](/images/image8.png)
+
 ```bash
 node index.js
 ```
 
-![Server Startup](/images/mern11.jpg)
+![Server Startup](/images/image9.png)
 
 Access your application at `http://your-instance-ip:5000` to verify the server is operational.
 
-![Server Verification](/images/mern12.jpg)
+![Server Verification](/images/image10.png)
 
 ## API Architecture Implementation
 
