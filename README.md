@@ -649,6 +649,10 @@ export default App;
 
 1. **App.css Styling**: Apply modern, responsive design patterns:
 
+```bash
+cd ..
+nano App.css
+```
 ```css
 .App {
   text-align: center;
