@@ -433,7 +433,7 @@ Add the proxy line:
 
 3. **Development Server Launch**: Start both backend and frontend simultaneously:
 
-****Important note: In order to be able to access the application from the Internet you have to open TCP port 3000 on EC2 by adding a new Security Group rule. You already know how to do it.****
+***Important note: In order to be able to access the application from the Internet you have to open TCP port 3000 on EC2 by adding a new Security Group rule. You already know how to do it.***
 
 ```bash
 npm run dev
@@ -781,11 +781,11 @@ cd ../..
 npm run dev
 ```
 
-![Full Application Launch](/images/image22.jpg)
+![Full Application Launch](/images/image21.jpg)
 
 2. **Browser Access**: Navigate to your EC2 instance's public IP address on port 3000 to access your fully functional todo application.
 
-![Application Interface](/images/image23.jpg)
+![Application Interface](/images/image22.jpg)
 
 ## Project Summary
 
